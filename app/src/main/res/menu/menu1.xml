@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mBuscar"
+        android:title="Buscar" />
+    <item
+        android:id="@+id/mAcercade"
+        android:title="Acerca de" />
+    <item
+        android:id="@+id/mFormulario"
+        android:title="Formulario" />
+    <item android:id="@+id/mCompartir"
+        android:title="Compartir"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item android:title="Salir"
+        android:id="@+id/mSalir"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_lock_power_off"
+        app:showAsAction="always" />
+</menu>
